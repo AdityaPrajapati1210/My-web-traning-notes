@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box {
+            border: 2px solid black;
+            height: 820px;
+            width: 650px;
+            margin: 200px;
+            box-shadow: 5px 5px 40px;
+        }
+
+        h1 {
+            text-align: center;
+            color: white;
+        }
+
+        p {
+            text-align: center;
+            color: white;
+
+        }
+
+        .heading {
+            background-color: rgb(15, 217, 236);
+            margin: 0px;
+            padding: 2px;
+        }
+
+        .form {
+            margin: 20px;
+            padding: 32px;
+        }
+
+        .form2 {
+            font-size: 18px;
+            /* width: 200px;
+            margin: 50px;
+            text-align: center; */
+
+        }
+
+        /* .form3{
+            /* margin-left: 300px;
+            margin-bottom: 300px; */
+        /* display: flex; */
+        /* background-color: aqua; */
+        /* flex-direction: row;
+			position: relative; /* added position relative */
+        /* left: 0; /* changed left value */
+        /* top: 0; changed top value */
+        .star-rating {
+            direction: rtl;
+            /* Right-to-left for correct hover behavior */
+            display: inline-flex;
+            font-size: 2rem;
+        }
+
+        .star-rating input {
+            display: none;
+            /* Hide the radio buttons */
+        }
+
+        .star-rating label {
+            color: lightgray;
+            cursor: pointer;
+            transition: color 0.2s ease-in-out;
+
+        }
+
+        .star-rating label:hover,
+        .star-rating label:hover~label {
+            color: rgb(22, 19, 2);
+            /* Highlight on hover */
+        }
+
+        .star-rating input:checked~label {
+            color: rgb(20, 17, 2);
+            /* Highlight selected stars */
+        }
+        .form4{
+            font-size: 18px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box">
+        <div class="heading">
+            <h1>Software Evaluation</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam quod ea aliquid, modi recusandae neque
+                officiis. Corrupti amet quibusdam, dolor earum voluptate voluptatibus doloribus minima.</p>
+        </div>
+        <div class="form">
+            <form action="">
+                <label for="name" style="padding: 50px; font-size: 20px; ">Name*</label>
+                <input type="text" id="name" required size="50" style="padding:8px;"><br><br><br>
+                <label for="employeId" style="padding: 25px; font-size: 20px;">Employe ID*</label>
+                <input type="text"required  style="padding: 8px; id=" employeId" size="50"><br><br><br>
+                <label for="email" style="padding: 48px; font-size: 20px;">E mail*</label>
+                <input type="text" required style="padding: 8px; id=" employeId" size="50"><br><br><br>
+                <label for="mobileNo" style="padding: 30px; font-size: 20px;">Mobile No*</label>
+                <input type="text" required style="padding: 8px; id=" mobileNo" size="50">
+            </form>
+        </div>
+        <div class="form2">
+            <form action="">
+                <label for="year" style="padding: 50px; ">How long have you </label>
+                <input type="radio" name="year" required id="less" value="less">
+                <label for="less">Less than a year</label>
+                <input type="radio" name="year" required id="more" value="more">
+                <label for="more">More than a year</label><br>
+                <label for="" style="padding: 50px;">being using this</label><br>
+                <label for="" style="padding: 50px;">software?</label><br>
+            </form>
+            <h3 style="padding-left:  50px; font-family:'Times New Roman', Times, serif;color: rgb(33, 32, 32);">Rate this software</h3>
+        </div>
+        <div class="star-rating" style="padding-left: 50px;">
+            <input type="radio" id="star5" name="rating" value="5">
+            <label for="star5">&#9733;</label>
+
+            <input type="radio" id="star4" name="rating" value="4">
+            <label for="star4">&#9733;</label>
+
+            <input type="radio" id="star3" name="rating" value="3">
+            <label for="star3">&#9733;</label>
+
+            <input type="radio" id="star2" name="rating" value="2">
+            <label for="star2">&#9733;</label>
+
+            <input type="radio" id="star1" name="rating" value="1">
+            <label for="star1">&#9733;</label>
+        </div><br><br>
+        <div class="form4" style="padding-left:  50px;">
+            <form action="">
+                <span style="padding-right: 50px;"> Would you be willing to </span>
+                <input type="radio" name="a" id="yes">
+                <label for="yes">Yes</label>
+                <input type="radio" name="a" id="no">
+                <label for="no">No</label><br>
+                <label for="">try out an alternative to</label><br>
+                <label for="">this software?</label>
+                <br><br>
+                <input type="submit" style="margin-left:40%; color: rgb(1, 18, 18);background-color: rgb(25, 218, 25);">
+            </form>
+           
+        </div>
+
+
+    </div>
+</body>
+
+</html>

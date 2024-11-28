@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day4</title>
+    <style> 
+        .parent{
+            height: 1000px;
+            background-color: red;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .parent:hover{
+            justify-content: space-between;
+        }
+        .child1{
+            height: 300px;
+            width: 300px;
+            background-color: yellow;
+            border: 10px solid rgb(3, 9, 11);
+            border-radius: 20px;
+            box-shadow: 5px 10px 50px rgb(11, 221, 211);
+            /* margin: 15px; */
+
+            
+        }
+        .child1:hover{
+            transform: rotate(15416541deg);
+            
+            /* transform: translateY(90PX); */
+            transition: 2s;
+            translate: 500px;
+            box-shadow: 5px 10px 50px rgb(11, 221, 211);
+        }
+        .child2{
+            height: 300px;
+            width: 300px;
+            background-color: rgb(28, 231, 28);
+          border: 10px solid black;
+            border-radius: 20px;
+            box-shadow: 5px 10px 50px rgb(12, 194, 222)  ;
+            /* margin: 15px; */
+           
+        }
+        .child2:hover{
+            /* transform: rotate(-50deg); */
+            transform: translatex(90PX);
+            transition: 4s;
+            box-shadow: 5px 10px 50px rgb(11, 221, 211);
+            translate: -950px;
+        }
+    </style>
+</head>
+<body>
+    <!-- flex bpx -->
+     <div class="parent">
+        <div class="child1">
+            <img src="https://www.dailypioneer.com/uploads/2024/story/images/big/rohit-sharma-admits-playing-in-new-york--wasn-t-easy--2024-06-13.jpg" alt="" width="300px" height="300px">
+        </div>
+        <div class="child2">
+            <img src="https://im.rediff.com/cricket/2019/mar/18ipl.jpg" alt=""  width="300px" height="300px">
+
+        </div>
+     </div>
+</body>
+</html>
