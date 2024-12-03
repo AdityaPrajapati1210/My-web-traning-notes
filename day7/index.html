@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Today is JS lecture</h1>
+    <script>
+        let arr=['aditya',"kumar","prajapati"]
+        let slicedname=arr.slice(1,3)
+        console.log(slicedname)
+        let splice=arr.splice(0,2,"badmash","don")
+        console.log(splice)
+             console.log(arr) 
+             arr.push("prajapati");
+             arr.pop();
+             console.log(arr) 
+             arr.shift();
+             console.log(arr) 
+             console.log(arr)  
+             arr.unshift("jai");
+             console.log(arr) ;
+             let reversedarr =arr.reverse()
+             console.log(reversedarr) 
+             //  console.log("Checking"bb)
+             const ages=[6,2,244,21,11,44,444,5,52,2342,32]
+             console.log("This is shorted array ages",ages.sort((a,b)=>a-b))
+             console.log("This is shorted array ages",ages.sort((a,b)=>b-a))
+             console.log("this is accescending order arr",arr.sort())
+             let reversedarr2 = arr.reverse()
+            console.log(reversedarr2)
+            for(let i=0;i<arr.length                                                                                              ;i++){
+                console.log("I like you",arr[i])
+            }
+            // let i=0;
+            // let size=arr.length
+            // while(i<size){
+            //     console.log("I like you",arr[i],"sir")
+            //     i++;
+
+            // }
+            let i=0;
+            let size=arr.length
+            while(i<size){
+                console.log(`I like you ${arr[i]} ji`)
+                i++;
+
+            }
+            // loop
+            console.log("printing name using loop")
+            for (let x  in arr){
+                console.log(arr[x])
+            } 
+            // map
+            console.log("printing name using map")
+            const newName=arr.map((item)=>{
+                console.log(item)
+            } )
+            // fer each
+            console.log("printing name using for each")
+            arr.forEach((item) => {
+                console.log(item)
+                
+            })
+            const ages2=[14 ,23,425,6,64,3,4,223,56,456234,5,56,443,7,887,67,56,566,89,78]
+            const retired=ages2.filter((ages2)=>ages2>59)
+            console.log(retired)
+            
+
+    </script>
+</body>
+</html>
